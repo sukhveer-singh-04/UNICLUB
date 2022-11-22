@@ -1,0 +1,17 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-post {
+  width: 80%;
+}
+
+
+
+/* @media only screen and (max-width:400px) {
+  .post{
+    width:400px
+  }
+} */

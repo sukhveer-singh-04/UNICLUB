@@ -1,0 +1,21 @@
+version: 2.1
+
+jobs:
+  deploy:
+    docker:
+      - image: docker:stable
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - setup_remote_docker:
+          version: 19.03.13
+      - run:
+          name: deploy
+          command: |
+            sh ./build-scripts/deploy.sh
+
+workflows:
+  main:
+    jobs:
+      - deploy:
+          context: uniclub
