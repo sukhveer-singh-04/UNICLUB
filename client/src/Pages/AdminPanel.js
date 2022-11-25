@@ -53,23 +53,13 @@ const CodingClub = () => {
                     Signed in as
                   </Text>
                   <Text b color="inherit" css={{ d: "flex" }}>
-                    zoey@example.com
+                    ADMIN
                   </Text>
                 </Dropdown.Item>
                 <Dropdown.Item key="settings" withDivider>
                   My Profile
                 </Dropdown.Item>
-                {/* <Dropdown.Item key="team_settings">Team Settings</Dropdown.Item>
-                <Dropdown.Item key="analytics" withDivider>
-                  Analytics
-                </Dropdown.Item>
-                <Dropdown.Item key="system">System</Dropdown.Item>
-                <Dropdown.Item key="configurations">
-                  Configurations
-                </Dropdown.Item>
-                <Dropdown.Item key="help_and_feedback" withDivider>
-                  Help & Feedback
-                </Dropdown.Item> */}
+
                 <Dropdown.Item key="logout" color="error" withDivider>
                   Log Out
                 </Dropdown.Item>
